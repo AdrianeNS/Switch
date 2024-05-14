@@ -2,7 +2,7 @@ README for Switch
 
 ## About
 
-Switch streamlines the migration from Gmail to Outlook by automating the transfer of your Gmail filters into Outlook rules. This project is a fork of the original [Move Your Filters](https://github.com/tomresing/MoveYourFilters) project by [Tom Resing](https://github.com/tomresing), enhancing its functionality with secure OAuth authentication for both Gmail and Azure (for Outlook) and adding Code to process exported filters XML file Code to create new Outlook rules in Graph API.
+Switch streamlines the migration from Gmail to Outlook by automating the transfer of your Gmail filters into Outlook rules. This project is a fork of the original [Move Your Filters](https://github.com/tomresing/MoveYourFilters) project by [Tom Resing](https://github.com/tomresing), enhancing its functionality with secure OAuth authentication for both Gmail and Azure (for Outlook) and adding Code to process the exported filters XML file to create new Outlook rules.
 
 ---
 
@@ -76,7 +76,7 @@ I welcome feedback and contributions to help refine the conversion process and e
 
 ### In Progress
 
-- Code to process exported filters XML file Code to create new Outlook rules in Graph API.
+- Code to process exported filters XML file to create new Outlook rules in Graph API.
 
 ### Proposed Logic for Creating New Rules in Outlook
 - MVP list: move based on email address or content keywords, move to folders, check for existing folders, create new folders, and mark as read.
